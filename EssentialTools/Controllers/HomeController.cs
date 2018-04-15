@@ -18,7 +18,7 @@ namespace EssentialTools.Controllers
             new Product {Name = "Flaga narożna", Category="Piłka nożna", Price = 34.95M}
         };
 
-        public HomeController(IValueCalculator calcParam)
+        public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
         {
             calc = calcParam;
         }
